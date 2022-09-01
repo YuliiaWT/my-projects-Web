@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+	padding: 10px;
+}
+
+.article-title-main{
+  font-family: 'Brush Script MT', cursive;
+  font-weight: normal;
+  font-size: 70px;
+  text-align: center;
+}
+
+.header-section{
+border-bottom: 3px solid black;
+}
+
+
+.article-title{
+  font-size: 30px;
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.main-section{
+	display: flex;
+  width: 100%;
+  align-items: stretch;
+  border-bottom: 3px solid black;
+  border-left: 1px solid black;
+}
+
+.text {
+  border-right: 1px solid black;
+  padding: 0 10px;
+}
+
+.quater-section{
+	width: 25%;
+}
+
+.article-image{
+	width: 100%;
+}
+
+
+.wide-section{
+	width: 50%;
+}
+
+
+.list-links{
+  display: flex;
+  width: 75%;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.link-section{
+	display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.each-link{
+  color: gray;
+  text-decoration: none;
+  font-size: 30px;
+  padding-left: 30px;
+  font-weight: bold;
+  font-family: "Arial";
+}
+
+.each-link:hover{
+	text-decoration: underline;
+}
+
+/*another way to add background color for multiple elm without declaring class for each:
+link-section:nth-child(1){background-color: #ffeaa7;}*/
+.link-politics{
+	background-color: lightyellow;
+}
+
+.link-technology{
+	background-color: lightskyblue;
+}
+
+.link-local{
+	background-color: lightgreen;
+}
+
+.link-opinion{
+	background-color: lightcyan;
+}
+
+.link-sports{
+	background-color: lightsalmon;
+}
+
+
+
